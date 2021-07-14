@@ -4,7 +4,8 @@
   "description": "Practice using Sequelize",
   "main": "restaurant.test.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,10 @@
   },
   "homepage": "https://github.com/AshleyU/Sequelize-Restaurants#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "jest": "^27.0.6",
     "sequelize": "^6.6.5",
     "sqlite3": "^5.0.2"
-  }
+  },
+  "devDependencies": {}
 }
